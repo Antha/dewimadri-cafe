@@ -2,8 +2,8 @@
 use App\Models\PageModel;
 use App\Models\PageBlockModel;
 
-class ShopController extends BaseController {
+class ContactController extends BaseController {
     public function index() {
-        return view('shop_view');
+        return view('contact_view');
     }
 }

@@ -1,7 +1,7 @@
 <?= $this->extend('layout/default') ?>
 
 <?= $this->section('title') ?>
-Home - 7AM Bakers Club
+Shop - 7AM Bakers Club
 <?= $this->endSection() ?>
 
 <?= $this->section('content') ?>

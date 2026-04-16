@@ -63,8 +63,6 @@ body {
   color: #8B4513;
 }
 
-
-
 /* Navbar */
 .navbar {
   padding: 1rem 0;
@@ -112,7 +110,7 @@ body {
 /* Banner Section */
 /* Banner dengan background */
 .banner {
-  background-image: url('/images/bg-baker.jpeg'); /* ganti dengan gambar roti/gandum */
+  background-image: url('/images/bakery-interior.jpg'); /* ganti dengan gambar roti/gandum */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -199,6 +197,56 @@ body {
 
 .footer a:hover {
   color: #FFD700; /* efek hover emas */
+}
+
+.hero.git{
+  background-image: url('/images/bakery-git.webp');
+}
+
+.contact h2, .contact h5 {
+  color: #FFD700; /* emas agar kontras dengan background gelap */
+}
+
+.contact p {
+  font-size: 1.1rem;
+}
+
+.map-container {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.register h2 {
+  color: #8B4513;
+}
+
+.register .list-group-item {
+  border: none;
+  padding: 0.75rem 1rem;
+  font-size: 1.05rem;
+}
+
+.register .list-group-numbered > .list-group-item::before {
+  background-color: #8B4513;
+  color: #fff;
+}
+
+.hero.wholesale{
+  background-image: url('/images/wholesale-bakery.jpg');
+}
+
+.wholesale h2 {
+  color: #FFD700; /* judul emas */
+}
+
+.wholesale h4 {
+  color: #f5deb3; /* subjudul tan */
+}
+
+.info-box {
+  background-color: #f5deb3; /* warna tan */
+  color: #000;
+  border-radius: 8px;
 }
 
 
